@@ -32,7 +32,7 @@ document.body.appendChild(lottieContainer);
 function hideOverlay() {
     overlay.style.display = 'none';
     lottieContainer.style.display = 'block';
-    // Substitua 'seu-arquivo-lottie.json' pelo caminho do seu arquivo Lottie.
+    // Substitua pela URL direta do seu arquivo JSON do Lottie.
     lottie.loadAnimation({
         container: lottieContainer,
         renderer: 'svg', // ou 'canvas' se preferir
@@ -43,7 +43,7 @@ function hideOverlay() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(hideOverlay, 100); // Substitua pelo seu código real de carregamento.
+    hideOverlay(); // Teste sem o setTimeout
 });
 
 window.addEventListener('load', hideOverlay);
