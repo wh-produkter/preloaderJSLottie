@@ -38,7 +38,7 @@ function hideOverlay() {
         renderer: 'svg', // ou 'canvas' se preferir
         loop: true,
         autoplay: true,
-        path: 'seu-arquivo-lottie.json',
+        path: 'https://jvsc99.github.io/preloaderJSLottie/preloader.js/JVGIsylS3F-3.json',
     });
 }
 
