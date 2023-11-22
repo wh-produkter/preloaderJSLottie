@@ -38,7 +38,7 @@ function hideOverlay() {
         renderer: 'svg', // ou 'canvas' se preferir
         loop: true,
         autoplay: true,
-        path: 'https://granna-system.github.io/preloaderJSLottie/loading.json',
+        path: 'https://wh-produkter.github.io/preloaderJSLottie/preloader.json',
     });
 }
 
