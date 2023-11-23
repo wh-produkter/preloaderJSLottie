@@ -38,7 +38,7 @@ function hideOverlay() {
         renderer: 'svg', // ou 'canvas' se preferir
         loop: true,
         autoplay: true,
-        path: 'https://wh-produkter.github.io/preloaderJSLottie/preloader.json',
+        path: 'https://wh-produkter.github.io/preloaderJSLottie/lorries.json',
     });
 }
 
